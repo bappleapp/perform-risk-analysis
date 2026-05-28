@@ -1,0 +1,64 @@
+DEV NOTES
+
+So far...
+> Created file structure
+> Installed dependencies
+> Written code for a 4-step SPA
+> Confirmed App is functioning
+
+03-12-2025
+> ***REALISED PErForM IS A "RISK ANALYSIS" TOOL (rather than a risk assessment tool)***
+
+06-12-2025
+> Added RiskProfileVisualization to RiskFactorScoring Step
+> Amended RiskProfileVisualization to be able to edit scores ON the diagram
+
+13-12-2025
+> Removed RiskSummary from RiskFactorScoring Step
+> Added RiskProfileVisualization to ResultsSummary Step
+> Removed RiskSummary from ResultsSummary Step
+
+19-05-2026
+> Added ClaudeCode to the chat
+> Changed all references from "risk assessment" to "risk analysis" in code
+> Changed name of parent directory to "task-analysis"
+> Changed name of app directory to "risk-analysis"
+...back on track!
+
+23-05-2026 - CHANGES TO PRINT/PDF OUTPUT LAYOUT
+> Added "currently selected" body part to BodyMap
+> Added BodyMap to Summary form to sit to the left of the Analysis diagram
+> Minor improvements to Summary form layout
+
+24-05-2026
+> ...cont modify print/PDF layout 
+
+25-05-2026
+> cleaned up UI/UX of dashboard and other steps
+> amended functionality of the SAVE ANALYSIS button to overwrite existing data and save as current name
+
+26-05-2026
+> added content to acknowledgements card for report 
+
+NEXT UP:
+> implement jsPDF - not necessary
+> deploy to GitHub pages and embed link into training course. 
+
+FUTURE CHANGES BEFORE RELEASE OF V1.0
+> Optimise RiskFactorSliders for position 
+> Optimise Edit/Save functions of RiskProfileVisualization:
+...body part selected for editing needs to be brought forward so there is no interference with other body part risk scores
+...on Save, new scores need to be updated for that Analysis (rather than having to save a new version of that file)
+> Optimise RiskProfileVisualisation for colour
+> Rename RiskFactorScoring Step to RiskFactorAnalysis
+> Change name of filenames, functions and components from "Assessment" to "Analysis"
+> Optimise print .pdf
+> Email report to a supervisor
+> Share Analysis with someone else in your organisation
+> Create Administrator, user, superuser rules
+> Include organisational data in dashboard
+> API
+> Embed LM Agent
+
+PRICING:
+> Progressive Web App: Subscription model; licence model (0-20, 21-200, 201-2000, 2000+)

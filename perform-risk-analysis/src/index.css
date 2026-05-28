@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.multiline-slider-label {
+  white-space: pre-line !important;
+  text-align: center !important;
+  font-size: 0.75rem !important;
+  line-height: 1.2 !important;
+  margin-top: 6px !important;
+}
