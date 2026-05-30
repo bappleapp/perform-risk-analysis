@@ -41,7 +41,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
-      <Router>
+      <Router basename="/perform-risk-analysis">
         <div className="min-h-screen bg-gray-50 print:bg-white">
           <div className="container mx-auto px-4">
             <div className="print:hidden"><Header /></div>
