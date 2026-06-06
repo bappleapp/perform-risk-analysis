@@ -43,7 +43,7 @@ function App() {
       <CssBaseline />
       <Router basename="/perform-risk-analysis">
         <div className="min-h-screen bg-gray-50 print:bg-white">
-          <div className="container mx-auto px-4">
+          <div className="container mx-auto px-4 print:px-0">
             <div className="print:hidden"><Header /></div>
             <main className="py-8 print:py-0">
             <Routes>
